@@ -1,3 +1,3 @@
-# gstreamer-rust-project-template
+# {REPO_NAME}
 
-Template used to create new Rust projects that use GStreamer library.
+{REPO_DESCRIPTION}
