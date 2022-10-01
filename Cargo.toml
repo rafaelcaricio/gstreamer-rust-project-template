@@ -1,5 +1,5 @@
 [package]
-name = "${REPO_NAME_LOWER}"
+name = "bla" #"${REPO_NAME_LOWER}"
 license = "MPL-2.0"
 version = "0.1.0"
 edition = "2021"
@@ -12,3 +12,8 @@ gst-video = { package = "gstreamer-video", git = "https://gitlab.freedesktop.org
 gst-audio = { package = "gstreamer-audio", git = "https://gitlab.freedesktop.org/gstreamer/gstreamer-rs" }
 gst-app = { package = "gstreamer-app", git = "https://gitlab.freedesktop.org/gstreamer/gstreamer-rs" }
 anyhow = "1"
+ctrlc = "3.2"
+tokio = { version = "1.17", features = ["full"] }
+axum = "0.5"
+tower = "0.4"
+tower-http = { version = "0.3", features = ["add-extension"] }
