@@ -1,5 +1,5 @@
 [package]
-name = "{REPO_NAME_LOWER}"
+name = "${REPO_NAME_LOWER}"
 version = "0.1.0"
 edition = "2021"
 
